@@ -15,6 +15,6 @@ menghasilkan skor tertinggi. Data permainan disimpan ke dalam database MySQL.
 - proses.php = berisi script untuk memproses data yang diinput dari form.html (set cookie nama dan email).
 - logout.php = berisi script untuk menghapus cookie jika user logout/menekan tulisan "klik disini" pada bagian "Bukan anda?" di index.php.
 - dbconfig.php = berisi konfigurasi/parameter koneksi database, akan di include di app.php.
-- app.php = file/script utama, berisi script aplikasi game.
+- app.php = file/script utama, berisi script aplikasi game beserta Hall of Fame di akhir permainan.
 ## Notes
 Aplikasi di-deploy di website dengan hosting https://www.educationhost.co.uk/, include MySQL server.
