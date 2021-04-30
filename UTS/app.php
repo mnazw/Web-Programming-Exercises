@@ -82,7 +82,7 @@ if (isset($_POST['submit']) && isset($_SESSION['jawaban'])){
         echo "<tr><th>No</th><th>Nama</th><th>Score</th></tr>";
         $i = 1;
         //Menampilkan data
-        while ($data = $result->fetch_assoc()){
+        while ($data = $result->fetch_assoc() | $i <= 10){
           echo "<tr><td>".$i."</td><td>".$data['Nama']."</td><td>".$data['Score']."</td></tr>";
           $i++;
         }
